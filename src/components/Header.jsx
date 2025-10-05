@@ -11,8 +11,7 @@ function Header() {
     <div className="max-w-screen-2xl w-full mx-auto px-4 flex justify-between items-center
     md:px-6  ">
         <h1>
-            <a href="/" 
-            className="">logo</a>
+           <img src="/logo.png" alt="" className="w-30" />
         </h1>
 
 <div className="relative md:justify-self-center ">

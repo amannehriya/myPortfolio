@@ -13,7 +13,7 @@ function SkillCard({
         ring-zinc-50/10 rounded-2xl p-3 hover:bg-zinc-800 transition-colors
         group   ` + classes} >
         <figure className="bg-zinc-700/50  rounded-lg overflow-hidden
-        w-12 h-12 p-2  group-hover:bg-zinc-900 transition-colors">
+        w-12 h-12 p-2  group-hover:bg-zinc-900 transition-colors object-fit ">
             <img src={imgsrc} 
             alt={label}
             width={32}

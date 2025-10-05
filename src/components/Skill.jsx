@@ -1,34 +1,34 @@
 import React from 'react'
 import SkillCard from './SkillCard'
-
+// import figma from ''
 function Skill() {
     const skillItems = [
         {
-            imgsrc:'#',
+            imgsrc:'public/Figma-logo.svg',
             label:'figma',
             desc:'Design Tool'
         }, {
-            imgsrc:'#',
+            imgsrc:'public/images/CSS3_logo_and_wordmark.svg',
             label:'css',
             desc:'User Interface'
         }, {
-            imgsrc:'#',
+            imgsrc:'public/JavaScript-Symbol.png',
             label:'javaScript',
             desc:'interaction'
         }, {
-            imgsrc:'#',
+            imgsrc:'public/images/136-1363736_express-js-icon-png-transparent-png.png',
             label:'Express js',
             desc:'Node Framework'
         }, {
-            imgsrc:'#',
+            imgsrc:'public/Mongodb.png',
             label:'Mongo Db',
             desc:'Database'
         }, {
-            imgsrc:'#',
+            imgsrc:'public/images/React-icon.svg.png',
             label:'React',
             desc:'Framework'
         }, {
-            imgsrc:'#',
+            imgsrc:'public/images/Tailwind_CSS_Logo.svg.png',
             label:'Tailwind-css',
             desc:'User Interface'
         },
@@ -37,7 +37,7 @@ function Skill() {
    <section className='section'>
     <div className="container">
 
-        <h2 className="headline-2">
+        <h2 className="headline-2 reveal-up">
             Essential Tools I Use
         </h2>
          <p className="text-zinc-400 mt-3 mb-8 max-w-[50ch]">
@@ -49,10 +49,11 @@ function Skill() {
         {
             skillItems.map(({imgsrc,label,desc},key)=>(
                 <SkillCard 
-
+                 key={key}
                 imgsrc={imgsrc}
                 label={label}
                 desc={desc}
+                classes="reveal-up"
                 />
             ))
         }

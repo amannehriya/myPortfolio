@@ -12,7 +12,7 @@ function Hero() {
 
     <div className='flex items-center gap-3'>
         <figure className='img-box w-9 h-9 rounded-lg'>
-            <img src=""
+            <img src="/images/aman-image.png"
             height={40}
             width={40}
              alt="aman"
@@ -36,6 +36,8 @@ function Hero() {
        <ButtonPrimary 
         label="Download CV"
         icon='download'
+        href={'/Aman_Nehriya - Resume (1).pdf'}
+        download='/Aman_Nehriya - Resume (1).pdf'
         />
 
         <ButtonOutline 
@@ -48,8 +50,8 @@ function Hero() {
 <div className=' hidden lg:block'>
     <figure className='w-full max-w-[480px] ml-auto  bg-gradient-to-t from-sky-400 via-25% via-sky-400/40 to-65%
     rounded-[60px] overflow-hidden'>
-        <img src=""
-        height={800}
+        <img src="/images/aman-image.png"
+        height={770}
         width={656}
          alt="aman-image"
          className='' />

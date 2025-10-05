@@ -4,10 +4,10 @@ function About() {
     const aboutItems = [
         {
             label: 'project-done',
-            number:5
+            number:2
         },{
             label:'years of experirnce',
-            number:1
+            number:"fresher"
         }
     ];
 
@@ -16,7 +16,7 @@ function About() {
   id="about"
   className='section'>
     <div className='container'>
-        <div className='bg-zinc-800/50 p-7 rounded-2xl md:p-12'>
+        <div className='bg-zinc-800/50 p-7 rounded-2xl md:p-12 reveal-up'>
             <p className='text-zinc-300 mb-4 md:mb-8 md:text-xl md:max-w-[60ch] '>
                Hello! I’m Aman, a web developer passionate about building elegant, responsive,
                 and high-performing websites. Blending creativity with technical expertise, 
@@ -37,11 +37,10 @@ function About() {
                     ))
                 }
 
-                <img src="#"
+                <img src="/logo.png"
                  alt="logo"
-                 width={30}
-                 height={30} 
-                 className='ml-auto md:w-[40px] md:h-[40px]'/>
+                
+                 className='ml-auto w-20 md:w-40'/>
             </div>
         </div>
 

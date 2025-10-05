@@ -7,13 +7,15 @@ function ButtonPrimary({
     target='_self',
     label,
     icon,
-    classes
+    classes,
+    download=''
 }) {
     
   if(href){
     return (
         <a href={href}
         target={target}
+        download={download}
         className={"btn btn-primary "+classes}
         >{label}
 
